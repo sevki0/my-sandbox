@@ -7,7 +7,7 @@ import (
 
 func main() {
 	for {
-		fmt.Println("Argo CD whispers: deploy complete 😎")
-		time.Sleep(3 * time.Second)
+		fmt.Println("Argo CD whispers: deploy complete 😎😎")
+		time.Sleep(5 * time.Second)
 	}
 }
