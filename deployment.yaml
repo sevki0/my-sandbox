@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: my-sandbox
+  labels:
+    app: my-sandbox
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: my-sandbox
+  template:
+    metadata:
+      labels:
+        app: my-sandbox
+    spec:
+      containers:
+      - name: my-sandbox
+        image: my-sandbox:v.0.1
