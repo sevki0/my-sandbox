@@ -17,3 +17,4 @@ spec:
       containers:
       - name: my-sandbox
         image: sevkioruc/my-sandbox:latest
+        imagePullPolicy: Always
