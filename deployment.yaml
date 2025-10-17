@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: my-sandbox
-        image: sevkioruc/hello-world:latest
+        image: sevkioruc/my-sandbox:latest
